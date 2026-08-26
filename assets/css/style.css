@@ -1837,7 +1837,7 @@ header.scrolled .header {
   flex: 1 1 calc(50% - 10px);
 }
 
-.footer__form .form-group:nth-child(3) {
+.footer__form .form-group.textarea {
   flex: 1 1 100%;
 }
 
