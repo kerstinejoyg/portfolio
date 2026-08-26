@@ -1338,7 +1338,16 @@
               <!-- Contact Form -->
               <div id="contact-form" class="footer__form tab-content">
 
-                <form action="#" method="post">
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                  <!-- Web3Forms Access Key -->
+                  <input type="hidden" name="access_key" value="c0353126-ba08-4973-9172-2fcffb6f55e9">
+
+                  <!-- Email subject -->
+                  <input type="hidden" name="subject" value="New Message from your Portfolio Website">
+
+                  <!-- Sender name -->
+                  <input type="hidden" name="from_name" value="Portfolio Website">
 
                   <div class="form-group">
                     <label for="name">Full Name</label>
@@ -1369,6 +1378,7 @@
                       name="message"
                       rows="5"
                       placeholder="Write your message"
+                      required
                     ></textarea>
                   </div>
 
